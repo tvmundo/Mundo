@@ -30,7 +30,13 @@ border:0px solid #000}
 
 <body> 
 <div id="pop">
-<a href="#" onclick="document.getElementById('pop').style.display='none';"><img src="https://tvmundo.github.io/Mundo/imgs/fechar%201%20fundo%20preto.jpg"border="0" width="70" height="70"/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="java script:history.go(-1)"> <img src="https://st.depositphotos.com/1005920/4614/i/950/depositphotos_46149225-stock-photo-back-orange-glossy-icon.jpg"border="0" width="70" height="70"/></a>
+<a href="#" onclick="document.getElementById('pop').style.display='none';"><img src="https://tvmundo.github.io/Mundo/imgs/fechar%201%20fundo%20preto.jpg"border="0" width="70" height="70"/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a title="Voltar" onclick="voltar()"><img src="https://st.depositphotos.com/1005920/4614/i/950/depositphotos_46149225-stock-photo-back-orange-glossy-icon.jpg"border="0" width="70" height="70"/></a>
+
+<script>
+function voltar() {
+    window.history.back();
+}
+</script>
 <br /><br /><br />
 
 <!---------------------select canais ini---------------------->
