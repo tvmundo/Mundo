@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Demo Page</title>
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css"/>
+    <style>
+        #container{
+            max-width: 1000px;
+            width: 100%;
+            margin: 20px auto;
+        }
+        #demo_box{
+            width: 100%;
+        }
+        .fa{
+            font-size: 40px;
+            line-height: 70px;
+        }
+        .fa-bars{
+            color: #3498db;
+        }
+        pre{
+            font-family: Consolas,Liberation Mono,Courier,monospace;
+            font-size: 13px;
+        }
+        @media screen and (orientation: portrait){
+            pre{
+                overflow-x: scroll;
+            }
+        }
+    </style>
+</head>
+<body>    
+        <div id="demo_box">
+            <span class="pop_ctrl"><i class="fa fa-bars"></i></span>
+            <ul id="demo_ul">
+                <li class="demo_li"><a href="http://www.gucheen.pro"><div><i class="fa fa-home"></i></div><div>Home</div></a></li>
+                <li class="demo_li"><a href="http://blog.gucheen.pro"><div><i class="fa fa-cloud"></i></div><div>Cloud</div></a></li>
+                <li class="demo_li"><div><i class="fa fa-cog"></i></div><div>settings</div></li>
+                <li class="demo_li"><div><i class="fa fa-envelope"></i></div><div>E-mail</div></li>
+                <li class="demo_li"><div><i class="fa fa-clock-o"></i></div><div>Clock</div></li>
+                <li class="demo_li"><div><i class="fa fa-folder"></i></div><div>Files</div></li>
+                <li class="demo_li"><div><i class="fa fa-heart-o"></i></div><div>Favourites</div></li>
+                <li class="demo_li"><div><i class="fa fa-mobile"></i></div><div>Mobile</div></li>
+                <li class="demo_li"><div><i class="fa fa-power-off"></i></div><div>Exit</div></li>
+            </ul>
+        </div>
+	
+    </div>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="src/jquery.popmenu.js"></script>
+    <script>
+        $(function(){
+            $('#demo_box').popmenu();
+            $('#demo_box_2').popmenu({'background':'#e67e22','focusColor':'#c0392b','borderRadius':'0'});
+            $('#demo_box_3').popmenu({'width': '200px', 'background':'#223','focusColor':'#ee5','borderRadius':'10px', 'top': '70', 'left': '-40', 'color':'#1265fe','border':'3px solid #0035fe'});
+        })
+    </script>
+	<body bgcolor=#000>
+<div style="float: left; width: 27%">
+<a href="#" onclick="document.getElementById('pop').style.display='block';"><img src="https://tvmundo.github.io/Mundo/imgs/menu1jpg.jpg" style="border: 5px solid #808080" width="110" height="70"/>
+</div>
+
+<div style="float: left; width: 23%">
+<a href="https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r15.html"><img src="https://tvmundo.github.io/Mundo/imgs/seta.branca.esquerda.jpg"border="0" width="50" height="80"/>
+</div>
+
+<div style="float: left; width: 10%">
+<span style="color: #fff; font-size: 40px;"><b>1</b></span>
+</div>
+
+<div style="float: right; width: 30%">
+<a href="https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r2.html"><img src="https://tvmundo.github.io/Mundo/imgs/seta.branca.direita.jpg"border="0" width="50" height="80"/>
+</div>
+
+<style>
+#pop{
+display: none;
+position: fixed;
+background-color:#000;
+top:1%;
+left:auto%;
+padding:10px;
+width:100%;
+height:600px;
+border:0px solid #000}
+</style>
+
+<body> 
+<div id="pop">
+<a href="#" onclick="document.getElementById('pop').style.display='none';"><img src="https://tvmundo.github.io/Mundo/imgs/fechar%201%20fundo%20preto.jpg"border="0" width="70" height="70"/>
+<br /><br /><br />
+
+<!---------------------select canais ini---------------------->
+<iframe width="100%" height="50"  scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/selectcn.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         <!---------------------select canais fim---------------------->
+<br /><br /><br />
+<!---------------------select radio ini------------------>
+<iframe width="100%" height="50"  scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/selradio.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div><!---------------------select radio fim ------------------>
+</div> 
+
+<div style="clear: both">
+<div style="text-align: center;">
+<span style="color: #fff; font-size: 20px;"><b></a>
+ <a href="#" onmouseover="Tip(' Canal 1 Rádio Tupi Rio de Janeiro | Informe canal fora do ar Contato <br/>TV mundo whatsapp & telegram (55) 84 9 8780-4100')" onmouseout="UnTip()">
+<iframe width="100%" height="478" scrolling="no" src="https://www.youtube.com/embed/Ef0psPETse0?autoplay=1;rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div></div><!------------------------- Canal 9 Rádio Tupi Rio de Janeiro Live 1 acima----------->
+         
+ <script type="text/javascript" src="https://rawgit.com/soanatareportagens/tv/master/msgsobretxt/wz_tooltip.js"></script>
+
+
+<!------------
+-
+-
+- ediçao    >>> https://github.com/soanatareportagens/tv/blob/master/canais/br/radios/r1.html
+- visitante >>> https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r1.html
+-
+-
+---------------> 
+
+</body>
+</html>
