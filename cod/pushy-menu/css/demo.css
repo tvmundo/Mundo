@@ -11,14 +11,14 @@ ul {
 /* Container */
 #container {
   position: relative;
-  padding: 580px 20px;
+  padding: 80px 20px;
   padding-top: 5px;
 }
 
 
 /* Menu Button */
 .menu-btn {
-  width: 100px;
+  width: 600px;
   padding: 10px;
   margin-bottom: 30px;
   background: #000;
