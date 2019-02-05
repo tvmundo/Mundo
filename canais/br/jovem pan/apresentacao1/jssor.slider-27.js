@@ -1,4 +1,6 @@
 /*!
+<!------- https://github.com/tvmundo/Mundo/edit/master/canais/br/jovem%20pan/apresentacao1/jssor.slider-27.js ---->
+<!------- https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/apresentacao1/jssor.slider-27.js ---->
 Jssor Slider (MIT license)
 */
 /* eslint-disable */
