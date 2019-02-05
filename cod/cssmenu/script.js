@@ -1,3 +1,6 @@
+<!----- https://github.com/tvmundo/Mundo/edit/master/cod/cssmenu/script.js
+https://tvmundo.github.io/Mundo/cod/cssmenu/script.js
+------>
 (function($) {
 
   $.fn.menumaker = function(options) {
