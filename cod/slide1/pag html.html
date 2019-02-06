@@ -1,0 +1,157 @@
+<body bgcolor=#000>
+<style type="text/css"> 
+a:link 
+{ 
+text-decoration:none; 
+} 
+</style>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Moving Boxes</title>
+
+	<!-- Required CSS -->
+	<link href="https://css-tricks.com/examples/MovingBoxes/css/movingboxes.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<link href="css/movingboxes-ie.css" rel="stylesheet" media="screen" />
+	<![endif]-->
+
+	<!-- Required script -->
+	<script src="https://code.jquery.com/jquery-1.8.0.min.js"></script>
+	<script src="https://css-tricks.com/examples/MovingBoxes/js/jquery.movingboxes.js"></script>
+
+	<!-- Demo only -->
+	<link href="demo/demo.css" rel="stylesheet">
+
+	<style>
+		/* Dimensions set via css in MovingBoxes version 2.2.2+ */
+		#slider { width: 500px; }
+        #slider li { width: 250px; }
+        #slider li { height: 300px; }
+	</style>
+
+	<script>
+	$(function(){
+
+		$('#slider').movingBoxes({
+			/* width and panelWidth options deprecated, but still work to keep the plugin backwards compatible
+			width: 500,
+			panelWidth: 0.5,
+			*/
+			startPanel   : 1,      // start with this panel
+			wrap         : false,   // if true, the panel will "wrap" (it really rewinds/fast forwards) at the ends
+			buildNav     : true,   // if true, navigation links will be added
+			navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
+		});
+
+	});
+	</script>
+
+</head>
+
+<body>
+
+</div>
+	<div id="wrapper">		
+
+		<!-- MovingBoxes Slider -->
+		<ul id="slider">
+
+			<li>
+				<a href="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/cn1.html" target="_parent"><img src="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/logo.png" alt="picture">
+				<span style="color: #FFF; font-size: 22px;"> <b> 1 - jovem pan News </b></span></a>
+			</li>
+
+			<li>
+<a href="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/cn2.html" target="_parent"><img src="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/Morning.Show.jpg" alt="picture"><span style="color: #FFF; font-size: 22px;"> <b> 2 - Jovem Pan Morning Show </b></span></a>
+								
+			</li>
+
+			<li>
+				<a href="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/cn3.html" target="_parent"><img src="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/Jovem.Pan.Sports.jpg" alt="picture">
+				<span style="color: #FFF; font-size: 22px;"> <b> 3 - Jovem Pan Sports </b></span></a>
+			</li>
+
+			<li>
+				 <a href="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/cn4.html" target="_parent"><img src="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/camisa10.jpg" alt="picture">
+				<span style="color: #FFF; font-size: 22px;"> <b> 4 - Camisa 10 </b></span></a>
+			</li>
+
+			<li>
+				<a href="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/cn5.html" target="_parent"><img src="https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/Panico.jpg" alt="picture">
+				<span style="color: #FFF; font-size: 22px;"> <b> 5 Pânico Jovem Pan </b></span></a>
+			</li>			
+			
+		</ul><!-- end Slider #1 -->
+
+	</div><!-- end wrapper -->
+
+ <style type="text/css" style="display: none !important;">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	#demo-top-bar {
+		text-align: left;
+		background: #222;
+		position: relative;
+		zoom: 1;
+		width: 100% !important;
+		z-index: 6000;
+		padding: 20px 0 20px;
+	}
+	#demo-bar-inside {
+		width: 960px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+	#demo-bar-buttons {
+		padding-top: 10px;
+		float: right;
+	}
+	#demo-bar-buttons a {
+		font-size: 12px;
+		margin-left: 20px;
+		color: white;
+		margin: 2px 0;
+		text-decoration: none;
+		font: 14px "Lucida Grande", Sans-Serif !important;
+	}
+	#demo-bar-buttons a:hover,
+	#demo-bar-buttons a:focus {
+		text-decoration: underline;
+	}
+	#demo-bar-badge {
+		display: inline-block;
+		width: 302px;
+		padding: 0 !important;
+		margin: 0 !important;
+		background-color: transparent !important;
+	}
+	#demo-bar-badge a {
+		display: block;
+		width: 100%;
+		height: 38px;
+		border-radius: 0;
+		bottom: auto;
+		margin: 0;
+		background: url(/images/examples-logo.png) no-repeat;
+		background-size: 100%;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	#demo-bar-badge:before, #demo-bar-badge:after {
+		display: none !important;
+	}
+</style>
+</body>
+
+</html>
