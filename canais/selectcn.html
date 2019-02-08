@@ -42,7 +42,7 @@ background: url(#) no-repeat left #2f4456; border: px solid #2f4456;  font-size:
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" /> Mundo | World
+        <option value="mundo" /> Mundo | World
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<option value="un" />&nbsp; Ultimas Noticias
 	<option value="cn-un" />&nbsp; 1 United Nations | Nações Unidas - Inglês
@@ -87,6 +87,11 @@ function showDiv2(pasta) {
   if (pasta == 'filmes') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/filmes/apresenta%C3%A7ao.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/filmes/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+// Mundo | World //
+  if (pasta == 'mundo') {
+    var url = "https://tvmundo.github.io/Mundo/canais/apresentacao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/apresentacao.html", target="_parent");<!----abre na mesma janela----->
   }
 // cn-un - United Nations //
   if (pasta == 'cn-un') {
