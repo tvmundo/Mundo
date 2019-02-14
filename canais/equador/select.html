@@ -42,12 +42,13 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" />&nbsp;...→&nbsp; Equador | 2 Canais 
+        <option value="plano1" />&nbsp;...→&nbsp; Equador | 3 Canais 
         <OPTION value="magazinevoce" />&nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio
 	<option value="cn1" enabled="disabled"> &nbsp; 1 Ecuador TV
-	<option value="cn2" enabled="disabled"> &nbsp; 2 VITOTVO         
+	<option value="cn2" enabled="disabled"> &nbsp; 2 Telecuenca TV   
+	<option value="cn3" enabled="disabled"> &nbsp; 2 VITO TVO 
 </div>      
 <!--------------------select pop up inicio--------------->
 <SCRIPT language=Javascript>
@@ -66,9 +67,10 @@ function showDiv2(pasta) {
     var url = "https://tvmundo.github.io/Mundo/canais/equador/cn2.html";
     window.open("https://tvmundo.github.io/Mundo/canais/equador/cn2.html", target="_parent");
   }
-	if (pasta == 'cn3') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/argentina/cn3.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/argentina/cn3.html", target="_parent");
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn3') {
+    var url = "https://tvmundo.github.io/Mundo/canais/equador/cn3.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/equador/cn3.html", target="_parent");
   }
 	if (pasta == 'cn4') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/argentina/cn4.html";
