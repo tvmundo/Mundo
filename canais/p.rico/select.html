@@ -43,11 +43,12 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
          
-	<option value="cn5" />&nbsp;  Porto Rico | 1 Canal aqui
+	<option value="cn5" />&nbsp;  Porto Rico | 2 Canais aqui
 	<OPTION value="magazinevoce" />&nbsp; Loja autorizada Magazine Luiza
          <OPTION value="doação" />&nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; Inicio
 	<option value="cn1" enabled="disabled">&nbsp; Canal 1 Rtm tv
+	<option value="cn2" enabled="disabled">&nbsp; Canal 2 Senado Puerto Rico
 	<optgroup label="Rádios">
                <option value="r1" enabled="disabled">--------- </option>
                   </optgroup>
@@ -67,8 +68,8 @@ function showDiv2(pasta) {
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn2') {
-    var url = "https://tvmundo.github.io/Mundo/canais/italia/cn1.html";
-    window.open("https://tvmundo.github.io/Mundo/canais/italia/cn1.html", target="_parent");
+    var url = "https://tvmundo.github.io/Mundo/canais/p.rico/cn2.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/p.rico/cn2.html", target="_parent");<!----abre na mesma janela----->
   }
 	if (pasta == 'cn3') {
     var url = "https://tvmundo.github.io/Mundo/canais/br/futebol.clubes/Corinthians/cn3.html";
