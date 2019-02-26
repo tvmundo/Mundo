@@ -43,12 +43,13 @@ background: url() no-repeat left #2f4456; border: px solid #2f4456;  font-size: 
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
          
-	<option value="cn5" />&nbsp;  العرب - Árabes | 2 Canais aqui
+	<option value="cn5" />&nbsp;  العرب - Árabes | 4 Canais aqui
 	<OPTION value="magazinevoce" />&nbsp; Loja autorizada Magazine Luiza
          <OPTION value="doação" />&nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; Inicio
 	<option value="cn1" enabled="disabled">&nbsp; 1 Al-Fallujah Tv Channel العراق
-	<option value="cn2" enabled="disabled">&nbsp; 2 Alaraby Network    
+	<option value="cn2" enabled="disabled">&nbsp; 2 Alaraby Network 
+	<option value="cn3" enabled="disabled">&nbsp; 3 Almagharibia TV
 	 <optgroup label="Rádios Árabes">
                <option value="r1">Al Kawn Radio & TV </option>
                   </optgroup>
@@ -71,9 +72,10 @@ function showDiv2(pasta) {
     var url = "https://tvmundo.github.io/Mundo/canais/arabes/cn2.html";
     window.open("https://tvmundo.github.io/Mundo/canais/arabes/cn2.html", target="_parent");<!----abre na mesma janela----->
   }
-	if (pasta == 'cn3') {
-    var url = "https://tvmundo.github.io/Mundo/canais/br/futebol.clubes/Corinthians/cn3.html";
-    window.open("https://tvmundo.github.io/Mundo/canais/br/futebol.clubes/Corinthians/cn3.html", target="_parent");
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn3') {
+    var url = "https://tvmundo.github.io/Mundo/canais/arabes/cn3.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/arabes/cn3.html", target="_parent");<!----abre na mesma janela----->
   }
 	if (pasta == 'cn4') {
     var url = "https://tvmundo.github.io/Mundo/canais/br/futebol.clubes/Corinthians/cn4.html";
