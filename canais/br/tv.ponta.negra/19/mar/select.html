@@ -1,8 +1,8 @@
 <body bgcolor=#000>
 <!---
 -
-->>> https://github.com/soanatareportagens/tv/blob/master/canais/br/radios/selradio.html
-->>> https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/selradio.html
+->>> https://github.com/tvmundo/Mundo/blob/master/canais/br/tv.ponta.negra/19/fev/select.html
+->>> https://tvmundo.github.io/Mundo/canais/br/tv.ponta.negra/19/fev/select.html
 -
 ---->
 <script language="Javascript">
@@ -37,115 +37,42 @@ document.getElementById(div).className = "visivel";
 .visivel { visibility: visible; }
 </style>
 
-<style type="text/css"> /* Para todos os options */ select, option{ width:350pt; height:25pt; padding:1pt 17pt; 
+<style type="text/css"> /* Para todos os options */ select, option{ width:100%; height:30pt; padding:1pt 17pt; 
 background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20D%20color.GIF) no-repeat left #2f4456; border: px solid #2f4456;  font-size: 22px; color: #fff; "></b></span> } 
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Lista de Radios aqui
+        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Patrulha da cidade Março de 2019
         <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
-	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio
-	<option value="r1" enabled="disabled">&nbsp; 1 RadioTupi RJ  
-	<option value="r2" />&nbsp; 2 Rádio FM 91 Marabá - Pará 
-        <option value="r3" enabled="disabled">&nbsp; 3 Rádio Gospel
-        <option value="r4" enabled="disabled">&nbsp; 4 Jovem Pan 
-        <option value="r5" enabled="disabled">&nbsp; 5 Rádio Onda Oeste FM | Piumhi - Minas Gerais
-        <option value="r6" />&nbsp; 6 RÁDIO SERTANEJO 2018
-        <option value="r7" enabled="disabled">&nbsp; 7 Rádio Imaculada Conceição 
-        <option value="r8" enabled="disabled">&nbsp; 8 RÁDIO MIX LIMEIRA
-        <option value="r9" />&nbsp; 9 Rádio Transmissões 98 Live
-        <option value="r10" />&nbsp; 10 GaúchaZH
-	<option value="r11" />&nbsp; 11 STUDYOFM gospel
-        <option value="r12" />&nbsp; 12 TV Diário | Macapá Amapá - Brasil
-        <option value="r13" />&nbsp; 13 Energia 97 FM
-	<option value="r14" />&nbsp; 14 Rádio Cariri 101 FM | Campina Grande - PB 
-        <option value="r15" />&nbsp; 15 Radio / TV Estadão
-	<option value="r16"enabled="disabled">&nbsp; 16 Rádio Bandeirantes 
-	<option value="r17"enabled="disabled">&nbsp; 17 Rádio BandNews FM
-	<option value="r18"enabled="disabled">&nbsp; 18 HD NCS & POP MUSIC 2018
-               
+	<option value="inibr" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio Canais Brasil 
+	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio TV Ponta Negra
+<!---
+Segunda-Feira dia 03
+Terça-Feira dia 04
+Quarta-Feira dia 05
+Quinta-Feira dia 06
+Sexta-Feira dia 07
+--->
+        <option value="cn1" enabled="disabled">&nbsp; Sexta-Feira dia 01
+	         
 </div>      
 <!--------------------select pop up inicio--------------->
 <SCRIPT language=Javascript>
 function showDiv2(pasta) {
   if (pasta == 'inicio') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/apresenta%C3%A7ao.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+    var url = "https://tvmundo.github.io/Mundo/canais/br/tv.ponta.negra/19/fev/apresenta%C3%A7ao.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/br/tv.ponta.negra/19/fev/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
+  }
+	// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'inibr') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/apresenta%C3%A7ao.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'r1') {
-    var url = "https://tvmundo.github.io/Mundo/canais/br/radios/tupi/apresenta%C3%A7ao.html";
-    window.open("https://tvmundo.github.io/Mundo/canais/br/radios/tupi/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
-  }
-// copie abaixo para adicionar mais uma janela smartfone //
-  if (pasta == 'r2') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r2.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r2.html", target="_parent");
-  }
-	if (pasta == 'r3') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r3.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r3.html", target="_parent");
-  }
-	if (pasta == 'r4') {
-    var url = "https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/apresenta%C3%A7ao.html";
-    window.open("https://tvmundo.github.io/Mundo/canais/br/jovem%20pan/apresenta%C3%A7ao.html", target="_parent");
-  }
-	if (pasta == 'r5') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r5.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r5.html", target="_parent");
-  }
-	if (pasta == 'r6') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r6.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r6.html", target="_parent");
-  }
-	if (pasta == 'r7') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r7.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r7.html", target="_parent");
-  }
-	if (pasta == 'r8') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r8.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r8.html", target="_parent");
-  }
-	if (pasta == 'r9') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r9.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r9.html", target="_parent");
-  }
-	if (pasta == 'r10') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r10.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r10.html", target="_parent");
-  }
-	if (pasta == 'r11') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r11.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r11.html", target="_parent");
-  }
-	if (pasta == 'r12') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r12.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r12.html", target="_parent");
-  }
-	if (pasta == 'r13') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r13.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r13.html", target="_parent");
-  }
-	if (pasta == 'r14') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r14.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r14.html", target="_parent");
-  }
-	if (pasta == 'r15') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r15.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r15.html", target="_parent");
-  }
-	if (pasta == 'r16') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r16.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r16.html", target="_parent");
-  }
-	if (pasta == 'r17') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r17.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r17.html", target="_parent");
-  }
-	if (pasta == 'r18') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r18.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/radios/r18.html", target="_parent");
+  if (pasta == 'cn1') {
+    var url = "https://tvmundo.github.io/Mundo/canais/br/tv.ponta.negra/19/mar/cn1.html";
+    window.open("https://tvmundo.github.io/Mundo/canais/br/tv.ponta.negra/19/mar/cn1.html", target="cn1"); <!----abre na mesma janela----->
   }
   if (pasta == 'magazinevoce') {
     var url = "https://www.magazinevoce.com.br/magazineelianefx";
@@ -159,4 +86,4 @@ function showDiv2(pasta) {
 // copie acima para adicionar mais uma janela //
 }
  </SCRIPT>
-                <!--------------------select pop up fim--------------->
+                     <!--------------------select pop up fim--------------->
