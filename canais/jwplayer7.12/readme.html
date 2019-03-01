@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>video { width: 100%; height:100%; background-color: black; }</style>
+<meta name="referrer" content="no-referrer" />
+</head><body><div style="position: fixed; z-index: 50; left: 10px; top: 8px;"></a></div><script type="text/javascript" src="http://tv.sarcheshmeh.us/player/jw7/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://tv.sarcheshmeh.us/player/jw7/jwplayer7.12.13.js"></script>
+<script type="text/javascript" src="http://tv.sarcheshmeh.us/player/jw7/swfobject.js"></script>
+<script>jwplayer.key="vBnhvR5XsGhk9L6hOwvwqOi+lx1k5BGyIFkXQqxD5N8OLsVV";</script>
+<div id="jwliveplayer">Loading the player...</div>
+<script type="text/javascript">
+var player_instance = jwplayer("jwliveplayer").setup({
+file: "https://www.youtube.com/embed/HXolTUHgssQ",
+width: "100%",
+height: "100%",
+image: "",
+sharing: "https://tv.sarcheshmeh.us",
+aspectratio: "16:9",
+autostart: "false",
+visualplaylist: "false",
+primary: "html5",
+hlshtml: "true",
+controls: "true",
+displaydescription: "true",
+displaytitle: "true",
+mute: "false",
+skin: "glow",
+abouttext: " Player",
+aboutlink: "/",
+flashplayer: "/player/jw7/jwplayer.flash.swf"
+});
+player_instance.on('error', function(evt) {
+console.log("Error:", evt.message);
+});
+</script></body>
+</html>
