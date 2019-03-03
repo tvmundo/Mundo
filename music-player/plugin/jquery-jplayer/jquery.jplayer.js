@@ -1,3 +1,6 @@
+<!--- https://github.com/tvmundo/Mundo/blob/master/music-player/plugin/jquery-jplayer/jquery.jplayer.js
+https://tvmundo.github.io/Mundo/music-player/plugin/jquery-jplayer/jquery.jplayer.js
+--->
 /*
  * jPlayer Plugin for jQuery JavaScript Library
  * http://www.jplayer.org
