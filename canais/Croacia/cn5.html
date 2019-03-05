@@ -6,11 +6,11 @@ https://tvmundo.github.io/Mundo/canais/Croacia/cn5.html
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1/music-player/plugin/css/style.css">
-    <link rel="stylesheet" type="text/css" href="http://127.0.0.1/music-player/demo/css/demo.css">
-    <script type="text/javascript" src="http://127.0.0.1/music-player/demo/js/jquery-1.6.1.min.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/music-player/plugin/jquery-jplayer/jquery.jplayer.js"></script>
-    <script type="text/javascript" src="http://127.0.0.1/music-player/plugin/ttw-music-player-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="../plugin/ttw-music-player-min.js"></script>
     <script type="text/javascript" src="http://127.0.0.1/music-player/demo/js/myplaylist.js"></script>
 
     <script type="text/javascript">
@@ -21,10 +21,14 @@ https://tvmundo.github.io/Mundo/canais/Croacia/cn5.html
                 autoPlay:false, 
                 description:description,
                 jPlayer:{
-                    swfPath:'http://127.0.0.1/music-player/plugin/jquery-jplayer/' //You need to override the default swf path any time the directory structure changes
+                    swfPath:'../plugin/jquery-jplayer' //Você precisa substituir o caminho swf padrão sempre que a estrutura do diretório for alterada
                 }
             });
         });
     </script>
 </head>
 <body>
+
+<div id="title"></div>
+</body>
+</html>
