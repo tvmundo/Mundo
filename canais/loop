@@ -1,0 +1,13 @@
+<!------------
+-
+-
+- ediçao    >>> https://github.com/tvmundo/Mundo/blob/master/canais/teste%201.html
+- visitante >>> https://tvmundo.github.io/Mundo/canais/teste%201.html
+-
+-
+---------------> 
+
+<body bgcolor=#000>
+<script language= "JavaScript"> 
+location.href=" http://tvmundo.dlinkddns.com/posts/ultimo%20post.html "
+</script>
