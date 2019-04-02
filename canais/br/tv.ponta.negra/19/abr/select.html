@@ -54,7 +54,8 @@ Quarta-Feira dia 05
 Quinta-Feira dia 06
 Sexta-Feira dia 07
 --->
-     <option value="cn1" enabled="disabled">&nbsp; Segunda-Feira dia 01
+     <option value="cn2" enabled="disabled">&nbsp; Terça-Feira dia 02
+	 <option value="cn1" enabled="disabled">&nbsp; Segunda-Feira dia 01
 		         
 </div>      
 <!--------------------select pop up inicio--------------->
@@ -70,10 +71,15 @@ function showDiv2(pasta) {
     window.open("../../../inicio.html", target="_parent");<!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn2') {
+    var url = "cn2.html";
+    window.open("cn2.html", target="cn1"); <!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn1') {
     var url = "cn1.html";
     window.open("cn1.html", target="cn1"); <!----abre na mesma janela----->
-  }          
+  }           
 // copie abaixo para adicionar mais uma janela Tecnologia//
   if (pasta == 'doação') {
     var url = "http://soanatareportagensanu.blogspot.com.br/2016/05/contribua-com-este-blog.html";
