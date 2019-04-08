@@ -55,6 +55,7 @@ Quinta-Feira dia 06
 Sexta-Feira dia 07
 sabado dia 08
 --->
+	 <option value="08" enabled="disabled">&nbsp; Sexta-Feira dia 08
 	 <option value="05" enabled="disabled">&nbsp; Sexta-Feira dia 05
 	 <option value="04" enabled="disabled">&nbsp; Quinta-Feira dia 04
 	 <option value="03" enabled="disabled">&nbsp; Quarta-Feira dia 03
@@ -73,6 +74,11 @@ function showDiv2(pasta) {
   if (pasta == 'inibr') {
     var url = "../../../inicio.html";
     window.open("../../../inicio.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == '08') {
+    var url = "cn8.html";
+    window.open("cn8.html", target="cn1"); <!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == '05') {
