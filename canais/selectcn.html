@@ -85,7 +85,8 @@ background: url(#) no-repeat left #2f4456; border: px solid #2f4456;  font-size:
 	<option value="cn36" enabled="disabled">&nbsp; 36 Croácia
 	<option value="cn37" enabled="disabled">&nbsp; 37 Geórgia
 	<option value="cn38" enabled="disabled">&nbsp; 38 Árabes العرب
-	<option value="filmes" />&nbsp; 39 Filmes e Documentarios
+	<option value="cn39" enabled="disabled">&nbsp; 39 Cuba
+	<option value="filmes" />&nbsp; 40 Filmes e Documentarios
 	       
 </div>      
 <!--------------------select pop up inicio--------------->
@@ -124,6 +125,10 @@ function showDiv2(pasta) {
   if (pasta == 'br-tv') {
     var url = "br/inicio.html";
     window.open("br/inicio.html", target="_parent");<!----abre na mesma janela----->
+  }
+	if (pasta == 'cn39') {
+    var url = "canais/cuba/cn1.html";
+    window.open("canais/cuba/cn1.html", target="_parent");
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn3') {
