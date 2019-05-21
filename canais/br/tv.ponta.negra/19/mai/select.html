@@ -54,7 +54,8 @@ Quarta-Feira dia 05
 Quinta-Feira dia 06
 Sexta-Feira dia 07
 --->
-     <option value="cn20" enabled="disabled">&nbsp; Segunda-Feira dia 20
+     <option value="cn21" enabled="disabled">&nbsp; Terça-Feira dia 21
+	 <option value="cn20" enabled="disabled">&nbsp; Segunda-Feira dia 20
 	 <option value="cn17" enabled="disabled">&nbsp; Sexta-Feira dia 17
 	 <option value="cn16" enabled="disabled">&nbsp; Quinta-Feira dia 16
 	 <option value="cn15" enabled="disabled">&nbsp; Quarta-Feira dia 15
@@ -75,7 +76,12 @@ function showDiv2(pasta) {
   if (pasta == 'inicio') {
     var url = "inicio.html";
     window.open("inicio.html", target="_parent");<!----abre na mesma janela----->
-    }
+}
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn21') {
+    var url = "cn21.html";
+    window.open("cn21.html", target="cn1"); <!----abre na mesma janela----->
+  }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn20') {
     var url = "cn20.html";
