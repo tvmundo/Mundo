@@ -1,1 +1,2 @@
-close png >> https://tvmundo.github.io/Mundo/banner/img/close.png
+close png            >> https://tvmundo.github.io/Mundo/banner/img/close.png
+close vermelho png   >> https://tvmundo.github.io/Mundo/banner/img/close.vermelho.png
