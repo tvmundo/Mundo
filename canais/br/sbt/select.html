@@ -60,6 +60,7 @@ sabado dia 08
 	 <option value="sbtsc" enabled="disabled">&nbsp; 3 - SBT Santa Catarina
          <option value="sbtrs" enabled="disabled">&nbsp; 4 - SBT Rio Grande do Sul
          <option value="allamanda" enabled="disabled">&nbsp; 5 - TV Allamanda - SBT 
+	 <option value="vtv" enabled="disabled">&nbsp; 6 - VTV - SBT
 </div>      
 <!--------------------select pop up inicio--------------->
 <SCRIPT language=Javascript>
@@ -72,6 +73,11 @@ function showDiv2(pasta) {
   if (pasta == 'inibr') {
     var url = "../../../inicio.html";
     window.open("../../../inicio.html", target="_parent");<!----abre na mesma janela----->
+  }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'vtv') {
+    var url = "6.vtv.html";
+    window.open("6.vtv.html", target="cn1"); <!----abre na mesma janela----->
   }
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'allamanda') {
