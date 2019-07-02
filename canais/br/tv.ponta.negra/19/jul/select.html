@@ -42,7 +42,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Patrulha da cidade Julho de 2019
+        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Patrulha da cidade Junho de 2019
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<option value="inibr" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio Canais Brasil 
 	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio TV Ponta Negra
@@ -53,7 +53,8 @@ Quarta-Feira dia 05
 Quinta-Feira dia 06
 Sexta-Feira dia 07
 --->
-     <option value="cn1" enabled="disabled">&nbsp; Segunda-Feira dia 01
+     <option value="cn2" enabled="disabled">&nbsp; Terça-Feira dia 02
+	 <option value="cn1" enabled="disabled">&nbsp; Segunda-Feira dia 01
 	 	 	 		         
 </div>      
 <!--------------------select pop up inicio--------------->
@@ -63,6 +64,11 @@ function showDiv2(pasta) {
     var url = "inicio.html";
     window.open("inicio.html", target="_parent");<!----abre na mesma janela----->
 }
+// copie abaixo para adicionar mais uma janela smartfone //
+  if (pasta == 'cn2') {
+    var url = "cn2.html";
+    window.open("cn2.html", target="cn1"); <!----abre na mesma janela----->
+ } 
 // copie abaixo para adicionar mais uma janela smartfone //
   if (pasta == 'cn1') {
     var url = "cn1.html";
