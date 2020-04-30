@@ -41,7 +41,7 @@
     "isparta": "^3.0.4",
     "istanbul": "^0.3.21",
     "istanbul-traceur": "^1.0.7",
-    "jquery": "^2.1.4",
+    "jquery": "^3.5.0",
     "jsdom": "^6.5.0",
     "karma": "^0.13.10",
     "mocha": "^2.3.2",
