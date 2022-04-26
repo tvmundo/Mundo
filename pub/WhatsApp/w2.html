@@ -22,19 +22,31 @@
 location.href=" https://web.whatsapp.com/ "
 </script>-->
 <!-------------------------Redirecionar Fim---------------------------->
+<?php
+  require_once 'Mobile_Detect.php';
+  $detect = new Mobile_Detect;
+?>
 <!DOCTYPE html>
 <html>
-<head></head>
-<body style="padding: 0; margin: 0">
-    <div class="wrapper" style="height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column">
-      <h1>VERSÃO MOBILE</h1>
-      <?php    
-          require_once "../Mobile_Detect.php";
-          $detect = New Mobile_Detect;
+ <head>
+<meta charset="utf8">
 
-           if( $detect->isMobile() && (!isset($_GET['force_desktop']) || $_GET['force_desktop'] == 'false')) : ?>
-               <a href="https://web.whatsapp.com&force_desktop=true">REDIRECIONAR PARA DESKTOP</a>
-            <?php endif; ?>
-    </div>
-</body>
+  <?php if( !isset($_GET['force_desktop']) && empty($_GET['force_desktop'])) : ?>
+
+  <?php if( $detect->isMobile() ) : ?>
+
+    <script type="text/javascript">
+         window.location.href = "https://web.whatsapp.com/";  
+    </script>
+
+  <?php endif ?>
+  <?php endif ?>
+  <?php var_dump($_GET); ?>
+ </head>
+<body style="padding: 0; margin: 0">
+
+<div class="wrapper" style="height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column">
+  <h1>VERSÃO DESKTOP</h1>     
+</div>
+ </body>
 </html>
