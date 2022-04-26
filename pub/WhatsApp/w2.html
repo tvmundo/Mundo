@@ -21,7 +21,7 @@
 <!--<script language= "JavaScript"> 
 location.href=" https://web.whatsapp.com/ "
 </script>-->
-
+<!-------------------------Redirecionar Fim---------------------------->
 <!DOCTYPE html>
 <html>
 <head></head>
@@ -33,7 +33,7 @@ location.href=" https://web.whatsapp.com/ "
           $detect = New Mobile_Detect;
 
            if( $detect->isMobile() && (!isset($_GET['force_desktop']) || $_GET['force_desktop'] == 'false')) : ?>
-               <a href="https://web.whatsapp.com/&force_desktop=true">REDIRECIONAR PARA DESKTOP</a>
+               <a href="https://web.whatsapp.com&force_desktop=true">REDIRECIONAR PARA DESKTOP</a>
             <?php endif; ?>
     </div>
 </body>
