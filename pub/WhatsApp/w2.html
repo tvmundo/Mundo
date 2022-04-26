@@ -32,7 +32,7 @@ location.href=" https://web.whatsapp.com/ "
           require_once "../Mobile_Detect.php";
           $detect = New Mobile_Detect;
 
-           if( $detect->isMobile() && (!isset($_GET['force_desktop']) || $_GET['force_desktop'] == 'true')) : ?>
+           if( $detect->isMobile() && (!isset($_GET['force_desktop']) || $_GET['force_desktop'] == 'false')) : ?>
                <a href="https://web.whatsapp.com/&force_desktop=true">REDIRECIONAR PARA DESKTOP</a>
             <?php endif; ?>
     </div>
