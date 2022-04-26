@@ -1,3 +1,29 @@
+<html>
+<head>
+    <title>Páginas responsivas - Tutorial Linha de Código</title>
+    <style type="text/css">
+    <script src="javascripts/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        var largura = $(window).width(); /* Capturando a do cliente */
+        if (largura <= 921) {
+        /* Se a Largura do monitor for menor ou = que 921 px */
+        $("#hire").hide(); /* Esconde a bandeira azul*/
+        $("#resize").hide(); /* Esconde "triangulo" resize no canto inferior direito*/
+        }
+        else if (tam >= 922) {
+        /* Se não for a condição a cima e for marior ou = a 922 px */
+        $("#hire").show(); /* Mostra a bandeira azul*/
+        $("#resize").show(); /* Mostra "triangulo" resize no canto inferior direito*/
+        }
+});
+</script>
+ 
+</style>
+</head>
+<body>
+    <div class=”container”>
+        <div class="one-third column">
 <!--------------Reload ini----------------->
 <style type="text/css">
   #msglive{
@@ -38,3 +64,98 @@ location.href=" https://web.whatsapp.com/ "
     </div>
 </body>
 </html>
+
+        </div>
+            <div class="one-third column">
+<!--------------Reload ini----------------->
+<style type="text/css">
+  #msglive{
+  position:fixed;
+  z-index:999; 
+  left:5px; 
+  top:150px;
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 30px;
+  height:30px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>    
+<input type="msglive" class="msglive" id="msglive" style="color: #000; font-size: 20px;" value="↻" onClick="window.location.reload()">
+<!--------------Reload Fim----------------->
+<!--<script language= "JavaScript"> 
+location.href=" https://web.whatsapp.com/ "
+</script>-->
+<!-------------------------Redirecionar Fim---------------------------->
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style="padding: 0; margin: 0">
+    <div class="wrapper" style="height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column">
+      <h1>VERSÃO MOBILE</h1>
+      <?php    
+          require_once "../Mobile_Detect.php";
+          $detect = New Mobile_Detect;
+
+           if( $detect->isMobile() && (!isset($_GET['force_desktop']) || $_GET['force_desktop'] == 'false')) : ?>
+               <a href="https://web.whatsapp.com/&force_desktop=true">REDIRECIONAR PARA DESKTOP</a>
+            <?php endif; ?>
+    </div>
+</body>
+</html>
+
+            </div>
+                <div class="one-third column">
+<!--------------Reload ini----------------->
+<style type="text/css">
+  #msglive{
+  position:fixed;
+  z-index:999; 
+  left:5px; 
+  top:150px;
+  overflow:none;
+  border:0px dashed #FFFF00;
+  padding:0px;
+  margin:0 auto;
+  width: 30px;
+  height:30px;
+  background:transparent;
+  {
+    visibility: none;
+  }
+</style>    
+<input type="msglive" class="msglive" id="msglive" style="color: #000; font-size: 20px;" value="↻" onClick="window.location.reload()">
+<!--------------Reload Fim----------------->
+<!--<script language= "JavaScript"> 
+location.href=" https://web.whatsapp.com/ "
+</script>-->
+<!-------------------------Redirecionar Fim---------------------------->
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style="padding: 0; margin: 0">
+    <div class="wrapper" style="height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column">
+      <h1>VERSÃO MOBILE</h1>
+      <?php    
+          require_once "../Mobile_Detect.php";
+          $detect = New Mobile_Detect;
+
+           if( $detect->isMobile() && (!isset($_GET['force_desktop']) || $_GET['force_desktop'] == 'false')) : ?>
+               <a href="https://web.whatsapp.com/&force_desktop=true">REDIRECIONAR PARA DESKTOP</a>
+            <?php endif; ?>
+    </div>
+</body>
+</html>
+
+                </div>
+    </div>
+ 
+</body>
+</html>
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/3628/como-criar-paginas-responsivas-para-varios-dispositivos.aspx#ixzz7RaxSusTP
